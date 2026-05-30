@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="changePassword">
+<h2>-PASSWORD SETUP PAGE-</h2>
+<br>
+<hr>
+<br>
+<label id="mail">ENTER YOUR EMAIL ID : </label>
+<input type="text" placeholder="enter your email" for="mail" name="email"><br><br>
+<label id="pass">ENTER NEW PASSWORD : </label>
+<input type="text" placeholder="enter new password" for="pass" name="password"><br><br>
+<input type="submit" value="CHANGE"><br><br>
+</form>
+
+</body>
+</html>

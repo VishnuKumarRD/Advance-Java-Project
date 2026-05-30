@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>-EMPLOYEE DELETION-</h2>
+<br><hr><br>
+<form action="deleteEmployee">
+	<Label for="eid">ENTER EMPLOYEE ID : </Label>
+	<input type="text" placeholder="enter employee id" id="eid" name="employeeId" ><br><br>
+	<input type="submit" value="DELETE">
+</form>
+</body>
+</html>

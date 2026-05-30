@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="taskUpdate">
+<h2>-TASK STATUS UPDATION-</h2>
+<br><hr><br>
+
+<label for="tid">ENTER TASK ID : </label>
+<input type="text" id="tid" placeholder="enter task id" name="taskId"><br><br>
+
+<label>SELECT CURRENT STATUS:</label>
+
+<select name="status">
+
+<option value="IN_PROGRESS">IN_PROGRESS</option>
+
+<option value="COMPLETED">COMPLETED</option>
+
+</select>
+
+<br><br>
+
+<input type="submit" value="UPDATE">
+
+</form>
+</body>
+</html>
